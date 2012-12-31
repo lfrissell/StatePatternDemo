@@ -1,0 +1,1 @@
+State Pattern Demo demonstrates an example of the state pattern in xCode.   

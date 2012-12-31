@@ -13,6 +13,10 @@
 		0F89F5261691D4D1005DB701 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0F89F5241691D4D1005DB701 /* Credits.rtf */; };
 		0F89F5291691D4D1005DB701 /* StatePatternAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F89F5281691D4D1005DB701 /* StatePatternAppDelegate.m */; };
 		0F89F52C1691D4D2005DB701 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F89F52A1691D4D2005DB701 /* MainMenu.xib */; };
+		0F89F5331691D779005DB701 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0F89F5321691D779005DB701 /* README.md */; };
+		0F89F53B1691DDA9005DB701 /* Step1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F89F53A1691DDA9005DB701 /* Step1.m */; };
+		0F89F53E1691E22E005DB701 /* Step2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F89F53D1691E22D005DB701 /* Step2.m */; };
+		0F89F5411691E2CE005DB701 /* Step3.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F89F5401691E2CE005DB701 /* Step3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,14 @@
 		0F89F5271691D4D1005DB701 /* StatePatternAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatePatternAppDelegate.h; sourceTree = "<group>"; };
 		0F89F5281691D4D1005DB701 /* StatePatternAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatePatternAppDelegate.m; sourceTree = "<group>"; };
 		0F89F52B1691D4D2005DB701 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0F89F5321691D779005DB701 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		0F89F5381691DC87005DB701 /* State.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		0F89F5391691DDA9005DB701 /* Step1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step1.h; sourceTree = "<group>"; };
+		0F89F53A1691DDA9005DB701 /* Step1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step1.m; sourceTree = "<group>"; };
+		0F89F53C1691E22D005DB701 /* Step2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step2.h; sourceTree = "<group>"; };
+		0F89F53D1691E22D005DB701 /* Step2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step2.m; sourceTree = "<group>"; };
+		0F89F53F1691E2CE005DB701 /* Step3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step3.h; sourceTree = "<group>"; };
+		0F89F5401691E2CE005DB701 /* Step3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +96,15 @@
 			children = (
 				0F89F5271691D4D1005DB701 /* StatePatternAppDelegate.h */,
 				0F89F5281691D4D1005DB701 /* StatePatternAppDelegate.m */,
+				0F89F5381691DC87005DB701 /* State.h */,
 				0F89F52A1691D4D2005DB701 /* MainMenu.xib */,
 				0F89F51C1691D4D1005DB701 /* Supporting Files */,
+				0F89F5391691DDA9005DB701 /* Step1.h */,
+				0F89F53A1691DDA9005DB701 /* Step1.m */,
+				0F89F53C1691E22D005DB701 /* Step2.h */,
+				0F89F53D1691E22D005DB701 /* Step2.m */,
+				0F89F53F1691E2CE005DB701 /* Step3.h */,
+				0F89F5401691E2CE005DB701 /* Step3.m */,
 			);
 			path = StatePatternDemo;
 			sourceTree = "<group>";
@@ -93,6 +112,7 @@
 		0F89F51C1691D4D1005DB701 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0F89F5321691D779005DB701 /* README.md */,
 				0F89F51D1691D4D1005DB701 /* StatePatternDemo-Info.plist */,
 				0F89F51E1691D4D1005DB701 /* InfoPlist.strings */,
 				0F89F5211691D4D1005DB701 /* main.m */,
@@ -157,6 +177,7 @@
 				0F89F5201691D4D1005DB701 /* InfoPlist.strings in Resources */,
 				0F89F5261691D4D1005DB701 /* Credits.rtf in Resources */,
 				0F89F52C1691D4D2005DB701 /* MainMenu.xib in Resources */,
+				0F89F5331691D779005DB701 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +190,9 @@
 			files = (
 				0F89F5221691D4D1005DB701 /* main.m in Sources */,
 				0F89F5291691D4D1005DB701 /* StatePatternAppDelegate.m in Sources */,
+				0F89F53B1691DDA9005DB701 /* Step1.m in Sources */,
+				0F89F53E1691E22E005DB701 /* Step2.m in Sources */,
+				0F89F5411691E2CE005DB701 /* Step3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
