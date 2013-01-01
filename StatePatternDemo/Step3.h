@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "State.h"
+
 @interface Step3 : NSObject<State>
 
 @end

@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "State.h"
-@interface Step2 : NSObject <State>
 
+@interface Step2 : NSObject<State>
 @end

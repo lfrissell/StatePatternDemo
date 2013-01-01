@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol State <NSObject>
+@protocol State
 @required
 -(void)nextStep;
 

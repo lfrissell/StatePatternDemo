@@ -17,6 +17,7 @@
 		0F89F53B1691DDA9005DB701 /* Step1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F89F53A1691DDA9005DB701 /* Step1.m */; };
 		0F89F53E1691E22E005DB701 /* Step2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F89F53D1691E22D005DB701 /* Step2.m */; };
 		0F89F5411691E2CE005DB701 /* Step3.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F89F5401691E2CE005DB701 /* Step3.m */; };
+		46D1B0F816925493008CB014 /* StateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D1B0F716925493008CB014 /* StateMachine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		0F89F53D1691E22D005DB701 /* Step2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step2.m; sourceTree = "<group>"; };
 		0F89F53F1691E2CE005DB701 /* Step3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Step3.h; sourceTree = "<group>"; };
 		0F89F5401691E2CE005DB701 /* Step3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Step3.m; sourceTree = "<group>"; };
+		46D1B0F616925493008CB014 /* StateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateMachine.h; sourceTree = "<group>"; };
+		46D1B0F716925493008CB014 /* StateMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateMachine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				0F89F53D1691E22D005DB701 /* Step2.m */,
 				0F89F53F1691E2CE005DB701 /* Step3.h */,
 				0F89F5401691E2CE005DB701 /* Step3.m */,
+				46D1B0F616925493008CB014 /* StateMachine.h */,
+				46D1B0F716925493008CB014 /* StateMachine.m */,
 			);
 			path = StatePatternDemo;
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 				0F89F53B1691DDA9005DB701 /* Step1.m in Sources */,
 				0F89F53E1691E22E005DB701 /* Step2.m in Sources */,
 				0F89F5411691E2CE005DB701 /* Step3.m in Sources */,
+				46D1B0F816925493008CB014 /* StateMachine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +328,7 @@
 				0F89F5311691D4D2005DB701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
