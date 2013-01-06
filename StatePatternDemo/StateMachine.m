@@ -10,10 +10,9 @@
 
 @implementation StateMachine
 @synthesize state;
-/*-(id)init{
-   state = [[NSObject<State> alloc] init];
-   
-    
-}*/
+-(id)init{
+ //*state = [[NSObject<State> alloc] init];
+        
+}
 
 @end
